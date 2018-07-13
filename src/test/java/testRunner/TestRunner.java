@@ -8,6 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "C:\\Users\\Kavinda\\IdeaProjects\\Java\\IkmanCucumberBDDTesting\\src\\test\\resources\\houseads.feature"
         ,glue={"IkmanBDD"}
+        ,format={"pretty","html:target/cucumber"}
 )
 
 public class TestRunner {
